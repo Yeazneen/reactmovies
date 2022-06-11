@@ -25,7 +25,9 @@ export default function App() {
       <Header />
       <Form moviesearch={getMovie} />
       <MovieDisplay movie={movie} />
+      <div class='footerposition'>
       <Footer />
+      </div>
     </div>
   );
 }

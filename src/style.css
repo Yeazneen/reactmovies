@@ -1,5 +1,7 @@
 body{
-    background: linear-gradient(to left top, blue, red) ;
+    background: linear-gradient(to left top, blue, red);
+    
+    
 }
 .App{
     align-items: center;
@@ -12,6 +14,7 @@ body{
     text-align: center;
     font-style: oblique;
     font-family: cursive;
+    
 }
 
 .Form{
@@ -35,20 +38,26 @@ body{
 
 
 .Footer{
-    width:100%;
+    
+    margin-left:50px;
     height:40px;
     background-color: #f2f8fa;
-    margin:0px;
+    
 }
 
 img {
-   
     width:100%;  
 }
 
-.FooterImage{
-    float:right;
+
+.FooterImage{ 
     height: 30px;
     width:30px;
+    float:left;
+}
 
+.footerposition{
+    position: fixed;
+    bottom: 0;
+    width: 1000px ;
 }
