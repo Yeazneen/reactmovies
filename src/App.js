@@ -11,7 +11,7 @@ export default function App() {
   const getMovie = async (searchTerm) => {
     try {
       const response = await fetch(
-        `https://www.omdbapi.com/?apikey=${apiKey}&t=${searchTerm}`
+        `http://www.omdbapi.com/?apikey=${apiKey}&t=${searchTerm}`
       );
       const data = await response.json();
       setMovie(data);
